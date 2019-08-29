@@ -1,5 +1,13 @@
 var prompt = require('prompt-sync')();
 var array = ["rock", "paper", "scissors", "lizard", "spock"]
+
+console.log("Rules:")
+console.log("Scissors cut Paper. Paper covers Rock.")
+console.log("Rock crushes Lizard. Lizard poisons Spock.")
+console.log("Spock smashes Scissors. Scissors decapitates Lizard.")
+console.log("Lizard eats paper. Paper disproves Spock.")
+console.log("Spock vaporizes Rock. And as it always has been, Rock crushes scissors")
+
 var answer = prompt("rock, paper, scissors, lizard or spock?")
 
 
